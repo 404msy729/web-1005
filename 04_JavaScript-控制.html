@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript-控制语句</title>
+</head>
+<body>
+<script type="text/javascript">
+    /*
+     java控制语句:if else elseif for while switch dowhile
+     break continue return
+     */
+    var a = 10;
+    var b = 5;
+    var c = 20;
+    //    if语句
+    if (a > 10) {
+        console.log("a>10:" + a);
+    } else if (a > 0 && a < 10) {
+        console.log("a>0&&a<10:" + a);
+    } else {
+        console.log("else:" + a)
+    }
+    //    for循环
+    for (var i = 0; i < 5; i++) {
+        console.log(i)
+    }
+    //    while 循环
+    while (a > 9) {
+        console.log(a);
+        a--;
+    }
+    do {
+        console.log(a);
+        a--;
+    }while (a>8);
+    c=2;
+//    switch
+    switch (c){
+        case 1:
+            console.log("1");
+            break;
+        case 2:
+            console.log("2");
+            break;
+    }
+//    运算符:+,-,*,/,%,++,--,+=,-=,*=,/=,|,||,&,&&,=(赋值),!
+</script>
+</body>
+</html>
